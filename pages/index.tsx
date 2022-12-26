@@ -32,7 +32,7 @@ export default function Home() {
                 <div>
                   <img
                     className="relative z-10 object-cover w-full rounded-md h-96"
-                    src=""
+                    src="/portfoliov2preview.png"
                     alt=""
                   />
 

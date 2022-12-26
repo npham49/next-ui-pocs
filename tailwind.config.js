@@ -12,12 +12,30 @@ module.exports = {
   plugins: [require("daisyui")],
   daisyui: {
     styled: true,
-    themes: true,
     base: true,
     utils: true,
     logs: true,
     rtl: false,
     prefix: "",
     darkTheme: "dracula",
+    themes: [
+      {
+        dracula: {
+          ...require("daisyui/src/colors/themes")["[data-theme=dracula]"],
+          "accent-content":"#FFFFFF",
+        },
+        light: {
+          ...require("daisyui/src/colors/themes")["[data-theme=light]"],
+        },
+        dark: {
+          ...require("daisyui/src/colors/themes")["[data-theme=dark]"],
+        },
+        cyberpunk: {
+          ...require("daisyui/src/colors/themes")["[data-theme=cyberpunk]"],
+          "accent-content":"#2B0047",
+          "accent": "#FF295E"
+        },
+      },
+    ],
   },
 }
