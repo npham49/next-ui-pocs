@@ -23,6 +23,7 @@ module.exports = {
         dracula: {
           ...require("daisyui/src/colors/themes")["[data-theme=dracula]"],
           "accent-content":"#FFFFFF",
+          "accent": "#9048F4"
         },
         light: {
           ...require("daisyui/src/colors/themes")["[data-theme=light]"],
