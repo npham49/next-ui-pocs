@@ -3,9 +3,10 @@ import React from 'react'
 
 const About = () => {
   return (
-    <div id='about' className="pb-10 text-accent-content flex flex-col w-full lg:flex-row bg-base-200 px-10">
-        <div className="w-1/2 grid h-auto bg-base-300 rounded-box place-items-center mx-auto">
-          <div className="mockup-phone">
+    <div id='about' className='w-full bg-base-200'>
+      <div  className="pb-10 text-accent-content flex flex-col w-full max-w-5xl mx-auto lg:flex-row">
+        <div className="w-auto grid h-auto rounded-box place-items-center">
+          <div className="mockup-phone w-[300px]">
             <div className="camera"></div>
             <div className="display">
               <div className="artboard artboard-demo phone-1">
@@ -30,6 +31,7 @@ const About = () => {
             functional websites.
           </p>
           {/* a random backstory in p with class py-2 */}
+        </div>
         </div>
       </div>
   )
