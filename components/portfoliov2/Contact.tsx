@@ -40,7 +40,7 @@ const Contact = () => {
               </div>
               <div className="form-control">
                 <label className="label">
-                  <span className="label-text">Password</span>
+                  <span className="label-text">Name</span>
                 </label>
                 <input
                   type="text"

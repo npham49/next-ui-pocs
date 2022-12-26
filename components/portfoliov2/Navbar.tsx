@@ -1,6 +1,8 @@
 import React, { useEffect } from "react";
 import { themeChange } from "theme-change";
 import { useScrollPosition } from "./hooks/useScrollPosition";
+import {MdLightMode,MdDarkMode} from "react-icons/md"
+import {GiVampireDracula,GiCyberEye} from "react-icons/gi"
 import Link from "next/link";
 
 const Navbar = () => {
@@ -76,7 +78,7 @@ const Navbar = () => {
             </label>
             <ul
               tabIndex={0}
-              className="menu dropdown-content p-2 shadow bg-base-100 rounded-box w-52 mt-4  text-secondary"
+              className="menu dropdown-content p-2 shadow bg-base-100 rounded-box w-52 mt-4  text-accent-content"
             >
               <li>
                 <a
@@ -87,6 +89,7 @@ const Navbar = () => {
                   }
                 >
                   Light
+                  <MdLightMode/>
                 </a>
               </li>
               <li>
@@ -98,6 +101,7 @@ const Navbar = () => {
                   }
                 >
                   Dark
+                  <MdDarkMode/>
                 </a>
               </li>
               <li>
@@ -109,6 +113,7 @@ const Navbar = () => {
                   }
                 >
                   Dracula
+                  <GiVampireDracula/>
                 </a>
               </li>
               <li>
@@ -120,6 +125,7 @@ const Navbar = () => {
                   }
                 >
                   Cyberpunk
+                  <GiCyberEye/>
                 </a>
               </li>
             </ul>

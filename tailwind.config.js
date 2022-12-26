@@ -33,7 +33,7 @@ module.exports = {
         cyberpunk: {
           ...require("daisyui/src/colors/themes")["[data-theme=cyberpunk]"],
           "accent-content":"#2B0047",
-          "accent": "#FF295E"
+          "accent": "#FFEE00"
         },
       },
     ],
