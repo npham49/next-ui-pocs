@@ -1,13 +1,17 @@
 import React from 'react'
-import Banner from '../../components/ecommercev1/Banner'
+import BestSeller1 from '../../components/ecommercev1/BestSeller'
+import Hero from '../../components/ecommercev1/Hero'
+import Layout from '../../components/ecommercev1/Layout'
 import Navbar from '../../components/ecommercev1/Navbar'
+import NewArrival from '../../components/ecommercev1/NewArrival'
 
 const index = () => {
   return (
-    <div>
-      <Navbar />
-      <Banner/>
-    </div>
+    <Layout>
+      <Hero/>
+      <BestSeller1/>
+      <NewArrival/>
+    </Layout>
   )
 }
 
